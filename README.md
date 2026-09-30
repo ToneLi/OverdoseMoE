@@ -1,4 +1,4 @@
-# Patient Timeline Pretraining, Fine-Tuning, and Logit MoE
+# Patient Timeline Pretraining, Fine-Tuning, and Logit MoE  for opoid overdose
 
 This repository provides three stages for patient timeline modeling with Qwen3:
 
