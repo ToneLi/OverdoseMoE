@@ -1,0 +1,56 @@
+name: "\U0001F41B Bug / help"
+description: Create a report to help us improve the LLaMA Factory
+labels: ["bug", "pending"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Issues included in **[FAQs](https://github.com/hiyouga/LLaMA-Factory/issues/4614)** or those with **insufficient** information may be closed without a response.
+
+  - type: markdown
+    attributes:
+      value: |
+        Please do not create issues that are not related to framework bugs under this category, use **[Discussions](https://github.com/hiyouga/LLaMA-Factory/discussions/categories/q-a)** instead.
+
+  - type: checkboxes
+    id: reminder
+    attributes:
+      label: Reminder
+      description: |
+        Please ensure you have read the above rules carefully and searched the existing issues (including FAQs).
+
+      options:
+        - label: I have read the above rules and searched the existing issues.
+          required: true
+
+  - type: textarea
+    id: system-info
+    validations:
+      required: true
+    attributes:
+      label: System Info
+      description: |
+        Please share your system info with us. You can run the command **llamafactory-cli env** and copy-paste its output below.
+
+      placeholder: llamafactory version, platform, python version, ...
+
+  - type: textarea
+    id: reproduction
+    validations:
+      required: true
+    attributes:
+      label: Reproduction
+      description: |
+        Please provide entry arguments, error messages and stack traces that reproduces the problem.
+
+      value: |
+        ```text
+        Put your message here.
+        ```
+
+  - type: textarea
+    id: others
+    validations:
+      required: false
+    attributes:
+      label: Others

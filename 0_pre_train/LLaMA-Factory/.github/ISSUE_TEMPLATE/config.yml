@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 FAQs
+    url: https://github.com/hiyouga/LLaMA-Factory/issues/4614
+    about: Reading in advance is recommended
+  - name: Discussions
+    url: https://github.com/hiyouga/LLaMA-Factory/discussions
+    about: Please ask fine-tuning questions here

@@ -1,0 +1,14 @@
+{
+  "patient_pretrain_train": {
+    "file_name": "patient_pretrain_train.jsonl",
+    "columns": {
+      "prompt": "text"
+    }
+  },
+  "patient_pretrain_dev": {
+    "file_name": "patient_pretrain_dev.jsonl",
+    "columns": {
+      "prompt": "text"
+    }
+  }
+}

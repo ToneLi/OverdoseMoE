@@ -1,0 +1,46 @@
+### Model
+model_name_or_path: Qwen/Qwen3-1.7B
+trust_remote_code: true
+
+### Pretraining method
+stage: pt
+do_train: true
+do_eval: true
+finetuning_type: lora
+lora_target: all
+lora_rank: 8
+lora_alpha: 16
+lora_dropout: 0.05
+
+### Dataset
+dataset_dir: data
+dataset: patient_pretrain_train
+eval_dataset: patient_pretrain_dev
+cutoff_len: 256
+packing: false
+overwrite_cache: true
+preprocessing_num_workers: 1
+dataloader_num_workers: 0
+
+### Demo output
+output_dir: outputs/qwen3_1_7b_patient_lora_demo
+overwrite_output_dir: true
+logging_steps: 1
+save_strategy: steps
+save_steps: 2
+eval_strategy: steps
+eval_steps: 1
+plot_loss: false
+report_to: none
+
+### Tiny smoke-test training run
+per_device_train_batch_size: 1
+per_device_eval_batch_size: 1
+gradient_accumulation_steps: 1
+learning_rate: 1.0e-4
+max_steps: 2
+lr_scheduler_type: cosine
+warmup_ratio: 0.1
+bf16: true
+ddp_timeout: 180000000
+seed: 42

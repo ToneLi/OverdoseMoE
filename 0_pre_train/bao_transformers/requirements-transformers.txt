@@ -1,0 +1,5 @@
+# Compatible with Qwen3, Python 3.10, TRL 0.18.2, and the existing demo.
+transformers==4.52.4
+huggingface-hub>=0.30.0,<1.0
+# Keep this compatible with datasets==4.0.0 in the other offline bundle.
+fsspec>=2023.5.0,<=2025.3.0

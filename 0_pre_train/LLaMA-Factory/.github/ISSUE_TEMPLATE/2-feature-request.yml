@@ -1,0 +1,37 @@
+name: "\U0001F680 Feature request"
+description: Submit a request for a new feature
+labels: ["enhancement", "pending"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not create issues that are not related to new features under this category.
+
+  - type: checkboxes
+    id: reminder
+    attributes:
+      label: Reminder
+      description: |
+        Please ensure you have read the above rules carefully and searched the existing issues.
+
+      options:
+        - label: I have read the above rules and searched the existing issues.
+          required: true
+
+  - type: textarea
+    id: description
+    validations:
+      required: true
+    attributes:
+      label: Description
+      description: |
+        A clear and concise description of the feature proposal.
+
+  - type: textarea
+    id: contribution
+    validations:
+      required: false
+    attributes:
+      label: Pull Request
+      description: |
+        Have you already created the relevant PR and submitted the code?

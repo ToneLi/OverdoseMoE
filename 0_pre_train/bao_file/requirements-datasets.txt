@@ -1,0 +1,9 @@
+# LLaMA-Factory supports datasets>=2.16.0,<=4.0.0.
+# Pin the upper supported version so the offline server is reproducible.
+datasets==4.0.0
+# transformers 4.x requires the pre-1.0 Hugging Face Hub API.
+huggingface-hub>=0.24.0,<1.0
+# Required by the bundled LLaMA-Factory configuration parser.
+omegaconf==2.3.0
+# Required at LLaMA-Factory model-loader import time (also for PT stage).
+trl==0.18.2
