@@ -1,10 +1,10 @@
-{"icd":"I10 E11.9 E78.5","label":"0"}
-{"icd":"I21.3 I25.1 R07.9","label":"1"}
-{"icd":"J18.9 R05 R50.9","label":"0"}
-{"icd":"C34.90 R63.4 Z87.891","label":"1"}
-{"icd":"N18.3 I12.9 D63.1","label":"0"}
-{"icd":"A41.9 R65.20 J96.00","label":"1"}
-{"icd":"K21.9 R10.9 K59.00","label":"0"}
-{"icd":"I50.9 R06.02 R60.0","label":"1"}
-{"icd":"M54.5 M19.90 G89.29","label":"0"}
-{"icd":"I63.9 R47.81 G81.90","label":"1"}
+{"text":"Essential hypertension; Type 2 diabetes mellitus without complications; Hyperlipidemia, unspecified","label":"0"}
+{"text":"ST elevation myocardial infarction of unspecified site; Atherosclerotic heart disease of native coronary artery; Chest pain, unspecified","label":"1"}
+{"text":"Pneumonia, unspecified organism; Cough; Fever, unspecified","label":"0"}
+{"text":"Malignant neoplasm of unspecified part of bronchus or lung; Abnormal weight loss; Personal history of nicotine dependence","label":"1"}
+{"text":"Chronic kidney disease, stage 3; Hypertensive chronic kidney disease; Anemia in chronic kidney disease","label":"0"}
+{"text":"Sepsis, unspecified organism; Severe sepsis without septic shock; Acute respiratory failure","label":"1"}
+{"text":"Gastroesophageal reflux disease without esophagitis; Abdominal pain, unspecified; Constipation, unspecified","label":"0"}
+{"text":"Heart failure, unspecified; Shortness of breath; Localized edema","label":"1"}
+{"text":"Low back pain; Osteoarthritis, unspecified; Other chronic pain","label":"0"}
+{"text":"Cerebral infarction, unspecified; Slurred speech; Hemiplegia, unspecified","label":"1"}
